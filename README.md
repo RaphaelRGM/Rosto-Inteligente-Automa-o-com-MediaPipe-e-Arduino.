@@ -1,35 +1,46 @@
-👀 Rosto Inteligente: Automação com MediaPipe e Arduino
+# 👀 Rosto Inteligente: Automação com MediaPipe e Arduino
 
-Este repositório contém todos os códigos utilizados na playlist "Rosto Inteligente: Automação com MediaPipe e Arduino", onde você aprenderá a detectar a posição do rosto com MediaPipe em Python e controlar LEDs com Arduino conforme a direção da cabeça.
+Este repositório contém todos os códigos utilizados na playlist **"Rosto Inteligente: Automação com MediaPipe e Arduino"**, onde você aprenderá a detectar a posição do rosto com **MediaPipe em Python** e controlar **LEDs com Arduino** conforme a direção da cabeça.
 
-📌 O que você encontrará aqui:
-Código Python com uso do MediaPipe FaceMesh para detectar keypoints do rosto
+---
 
-Comunicação Serial entre Python e Arduino
+## 📌 O que você encontrará aqui
 
-Código C++ para Arduino acionando LEDs com base nos comandos recebidos
+- Código **Python** com uso do **MediaPipe FaceMesh** para detectar keypoints do rosto  
+- Comunicação **Serial** entre Python e Arduino  
+- Código **C++ para Arduino** que aciona LEDs com base nos comandos recebidos  
+- Esboço do **circuito eletrônico com LEDs**  
+- Suporte para uso de vídeo gravado (`video.mp4`) ou câmera ao vivo *(adicione seu próprio vídeo)*
 
-Esboço do circuito eletrônico com LEDs
+---
 
-Arquivo de vídeo de teste (video.mp4) para simulação offline (adicione o seu próprio)
+## 🎥 Playlist no YouTube
 
-🎥 Acesse a playlist completa no YouTube:
-📺 https://youtube.com/playlist?list=PLEQcn1oRilpOlYGCjKuyK2z_daJIRzxFd&si=rnYFon1yU5QAeHfH
+📺 Assista à playlist completa com passo a passo didático:  
+[👉 https://youtube.com/playlist?list=PLEQcn1oRilpOlYGCjKuyK2z_daJIRzxFd&si=rnYFon1yU5QAeHfH](https://youtube.com/playlist?list=PLEQcn1oRilpOlYGCjKuyK2z_daJIRzxFd&si=rnYFon1yU5QAeHfH)
 
-Cada vídeo da playlist apresenta um passo a passo detalhado:
+### Os vídeos da playlist:
 
-Demonstração do projeto funcionando
+1. **Demonstração do Projeto Final – FaceMesh com Arduino e LEDs**  
+2. **Preparando o Ambiente – VENV e Instalação das Bibliotecas**  
+3. **Introdução ao Código Python – Porta COM e Keypoints**  
+4. **Código Python Explicado Passo a Passo**  
+5. **Montagem do Circuito e Início do Código Arduino**  
+6. **Código Completo no Arduino e Conclusão do Projeto**
 
-Criação da VENV e instalação das bibliotecas
+---
 
-Introdução ao código Python e keypoints do rosto
+## 🚀 Comece agora
 
-Explicação detalhada do código Python
+Clone este repositório, instale as dependências Python no seu ambiente virtual e abra o código no VSCode. O MediaPipe detectará a orientação do rosto e enviará comandos para o Arduino acionar os LEDs de acordo com a direção: esquerda, direita ou centro.
 
-Montagem do circuito com LEDs e início do código Arduino
+---
 
-Código final do Arduino e conclusão do projeto
+## 🤝 Conecte-se com o autor
 
-🤝 Conecte-se com o autor:
-👨‍🏫 Raphael Garcia Moreira
-🔗 https://www.linkedin.com/in/raphaelgarciamoreira/
+👨‍🏫 **Raphael Garcia Moreira**  
+🔗 [https://www.linkedin.com/in/raphaelgarciamoreira/](https://www.linkedin.com/in/raphaelgarciamoreira/)
+
+---
+
+📢 **Siga a playlist, pratique e compartilhe! Vamos levar a visão computacional para o mundo físico com projetos práticos e acessíveis.**
